@@ -47,6 +47,7 @@ class Road{
         //     // Set solid line for boundaries
         //     ctx.setLineDash([]);
         // }
+        // ctx.setLineDash([20,20]);
         ctx.beginPath();
 
         ctx.moveTo(x, this.top);
