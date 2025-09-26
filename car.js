@@ -36,7 +36,7 @@ class Car{
                 s => s == null ? 0 : 1 - s.offset
             )
             const outputs = NeuralNetwork.feedForward(offsets, this.brain)
-            console.log("outputs - ", outputs);
+            // console.log("outputs - ", outputs);
 
                 //if using brain the we set the outputs of the nn to controls
         if(this.useBrain){
