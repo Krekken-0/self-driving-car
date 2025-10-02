@@ -50,3 +50,8 @@ function getRGBA(value){
     const G = B
     return "rgba(" + R + "," + G + "," + B + "," + alpha + ")"
 }
+
+function getRandomColor(){
+    const hue = 290 + Math.random() * 260
+    return "hsl("+hue+", 100%, 60%"
+}
